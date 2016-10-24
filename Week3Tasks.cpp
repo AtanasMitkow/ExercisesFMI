@@ -51,68 +51,13 @@ int main()
 	cout << "Wuwedete chislo: ";
 	cin >> number;
 
-	switch (number % 2)
-	{
-	case 0:
-		cout << "chisloto se deli na 2" << endl;
-		break;
+	int fullNum = 2 * 3 * 4 * 5 * 6 * 7 * 8 * 9 * 10;
 
-	}
-	switch (number % 3)
-	{
+	switch (number%fullNum) {
 	case 0:
-		cout << "chisloto se deli na 3" << endl;
+		cout << "Chisloto se deli na wsqko edno ot chislata ot 2 do 10 " << endl;
 		break;
-
-	}
-	switch (number % 4)
-	{
-	case 0:
-		cout << "chisloto se deli na 4" << endl;
-		break;
-
-	}
-	switch (number % 5)
-	{
-	case 0:
-		cout << "chisloto se deli na 5" << endl;
-		break;
-
-	}
-	switch (number % 6)
-	{
-	case 0:
-		cout << "chisloto se deli na 6" << endl;
-		break;
-
-	}
-	switch (number % 7)
-	{
-	case 0:
-		cout << "chisloto se deli na 7" << endl;
-		break;
-
-	}
-	switch (number % 8)
-	{
-	case 0:
-		cout << "chisloto se deli na 8" << endl;
-		break;
-
-	}
-	switch (number % 9)
-	{
-	case 0:
-		cout << "chisloto se deli na 9" << endl;
-		break;
-
-	}
-	switch (number % 10)
-	{
-	case 0:
-		cout << "chisloto se deli na 10" << endl;
-		break;
-
+	default: cout << "Chisloto ne se deli na wsqko edno ot chislata" << endl;
 	}
 
 	// Zadacha 3
